@@ -561,7 +561,7 @@
 
 }
 
-@media (max-width:380px) {
+@media (max-width:415px) {
     .main-div{
         background-image: url(background_image\ \(3\).png);
         background-size: 100% 100%;
@@ -684,7 +684,7 @@
 }
 
 
-@media (max-width:320px) {
+@media (max-width:325px) {
     .main-div{
         background-image: url(background_image\ \(3\).png);
         background-size: 100% 100%;
