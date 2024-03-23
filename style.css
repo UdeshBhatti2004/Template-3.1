@@ -684,7 +684,7 @@
 }
 
 
-@media (max-width:300px) {
+@media (max-width:320px) {
     .main-div{
         background-image: url(background_image\ \(3\).png);
         background-size: 100% 100%;
@@ -789,18 +789,17 @@
         margin-left: 7vw;
     }
     
-    
     .our-services-content{
-        width: 40vw;
-        margin-left: 8vw;
-        font-size: 3vw;
-        margin-top: 5vw;
+        width: 35vw;
+        margin-left: 10vw;
+        font-size: 2.5vw;
+        margin-top: 7vw;
     }
     
     .plans{
         color:rgb(0, 179, 255);
         font-size: 5vw;
-        margin-left: 1vw;
+        margin-left: 1.5vw;
     }
 
     
@@ -822,12 +821,12 @@
 .img-con{
     display: flex;
     margin-left: 3vw;
-    margin-top: 11.5vw;
+    margin-top: 10vw;
 }
 .img-con-3 {
     display: flex;
     margin-left: 7vw;
-    margin-top: 11.5vw;
+    margin-top: 10vw;
 }
 
 .logo-image{
