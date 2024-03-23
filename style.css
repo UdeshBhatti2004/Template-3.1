@@ -1,0 +1,690 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Alata", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.main-div{
+    background-image: url(background_image\ \(3\).png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;   
+    height: 55vw;
+}
+
+.background-color{
+    background-color: rgba(0, 128, 255, 0.358);
+    height: 55vw;
+    background-size: 100% 100%;
+}
+
+.yellow-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.yellow-part-1{
+
+    background-color: yellow;
+    height: 1vw;
+    width: 4vw;
+    margin-top: 3vw;
+    margin-left: 9vw;
+}
+
+.yellow-part-1 h1{
+    margin-top: 0.5vw;
+    color: white;
+    font-size: 6vw;
+
+}
+
+.yellow-part-2{
+    display: flex;
+}
+
+.yellow-box{
+    background-color: yellow;
+    display: flex;
+    margin-right: 10vw;
+    width: 15vw;
+    height: 17vw;
+    justify-content: center;
+}
+
+.text-1 h1{
+      margin-top: 1vw;
+      margin-right: 3.5vw;
+      color: white;
+      font-size: 3.8vw;
+}
+
+.text-2 h1{ 
+    margin-left: 4vw;
+    color: white;
+    font-size: 3.8vw;
+    letter-spacing: 0.15vw;
+}
+.text-3 h1{
+    margin-left: 12.5vw;
+    color: white;
+    font-size: 3.8vw;
+}
+
+
+
+
+
+
+.image-div{
+    background-image: url(shape_5.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;   
+    height: 9vw;
+    width: 9vw;
+    margin-left: 44vw;
+    margin-top: 15vw;
+}
+
+.h-c-1{
+    color: white;
+    font-size: 3vw;
+    letter-spacing: 4vw;
+    margin-left: 12vw;
+
+}
+
+.h-c-2{
+    color: white;
+    font-size: 1vw;
+    letter-spacing: 1.68vw;
+    margin-left: 12vw;
+
+}
+
+.white-box{
+    background-color: white;
+    /* height: 100vh; */
+}
+
+.white-box-text-1 h1{
+    color: yellow;
+    margin-top: 3vw;
+    font-size: 12vw;
+    margin-left: 12vw;
+}
+
+.black-line{
+    background-color:black ;
+    height: 0.1vw;
+    width: 73.5vw;
+    margin-left: 12.5vw;
+}
+
+.flex-div{
+    display: flex;
+    margin-top: 2vw;
+}
+
+.our{
+    font-size: 2vw;
+    margin-left: 12vw;
+}
+
+.services{
+    color:rgb(0, 179, 255);
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+
+.our-services-content{
+    width: 32vw;
+    margin-left: 12vw;
+    font-size: 1vw;
+}
+
+.plans{
+    color:rgb(0, 179, 255);
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+
+.yellow-line-1{
+    background-color: yellow;
+    height: 8vw;
+    width: 5vw;
+    margin-top: 7.9vw;
+}
+
+.footer-part{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-section-1{
+    height: 5vw;
+    width: 25vw;
+    margin-top: 6vw;
+    margin-left: 2vw;
+    
+}   
+
+.second-section{
+    height: 10vw;
+    width: 25vw;
+    margin-top: 6vw;
+    margin-left: 2vw;
+    
+
+}
+
+.third-section{
+    height: 10vw;
+    width: 25vw;
+    margin-top: 6vw;
+    margin-left: 2vw;
+    
+}
+
+
+.yellow-line-2{
+    background-color: yellow;
+    height: 8vw;
+    width: 5vw;
+    margin-top: 7.9vw;
+    margin-left: 15vw;
+}
+
+.img-con{
+    display: flex;
+    margin-left: 3vw;
+}
+
+.img-con img{
+    height: 3vw;
+}
+
+.img-con h1{
+    font-size: 1.5vw;
+    margin-left: 1vw;
+}
+
+.img-con-2{
+    display: flex;
+    margin-top: 3vw;
+    margin-left: 3vw;
+}
+
+.img-con-2 img{
+    height: 2vw;
+}
+
+.img-con-2 h1{
+    font-size: 1.5vw;
+    margin-left: 2vw;
+    
+}
+
+.img-con-3 {
+    display: flex;
+    margin-left: 7vw;
+}
+
+
+.img-con-3 img{
+    height: 2.5vw;
+}
+
+.img-con-3 h1{
+    font-size: 1.5vw;
+    margin-left: 2vw;
+}
+
+.img-con-4 {
+    display: flex;
+    margin-top: 3vw;
+    margin-left: 7vw;
+}
+
+
+.img-con-4 img{
+    height: 2.5vw;
+}
+
+.img-con-4 h1{
+    font-size: 1.5vw;
+    margin-left: 2vw;
+}
+
+
+.img-con-5{
+    display: flex;
+    margin-left: 4vw;
+}
+
+.logo-image{
+    height: 3vw;
+    margin-top: 3vw;
+    margin-left: 3vw;
+}
+
+
+.globe-image{
+    height: 4.5vw;
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+
+
+
+/* media query */
+
+@media (max-width:600px){
+    
+.main-div{
+    background-image: url(background_image\ \(3\).png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;   
+    height: 75vw;
+}
+
+.background-color{
+    background-color: rgba(0, 128, 255, 0.358);
+    height: 75vw;
+    background-size: 100% 100%;
+}
+
+.yellow-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.yellow-part-1{
+
+    background-color: yellow;
+    height: 1vw;
+    width: 4vw;
+    margin-top: 3vw;
+    margin-left: 9vw;
+}
+
+.yellow-part-1 h1{
+    margin-top: 0.5vw;
+    color: white;
+    font-size: 6vw;
+
+}
+
+.yellow-part-2{
+    display: flex;
+}
+
+.yellow-box{
+    background-color: yellow;
+    display: flex;
+    margin-right: 10vw;
+    width: 15vw;
+    height: 17vw;
+    justify-content: center;
+}
+
+.text-1 h1{
+      margin-top: 1vw;
+      margin-right: 3.5vw;
+      color: white;
+      font-size: 3.8vw;
+}
+
+.text-2 h1{ 
+    margin-left: 4vw;
+    color: white;
+    font-size: 3.8vw;
+    letter-spacing: 0.15vw;
+}
+.text-3 h1{
+    margin-left: 12.5vw;
+    color: white;
+    font-size: 3.8vw;
+}
+
+.image-div{
+    background-image: url(shape_5.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;   
+    height: 11vw;
+    width: 11vw;
+    margin-left: 43vw;
+    margin-top: 23vw;
+}
+
+.h-c-1{
+    color: white;
+    font-size: 4vw;
+    letter-spacing: 4vw;
+    margin-left: 8.5vw;
+    margin-top: 2vw;
+
+}
+
+.h-c-2{
+    color: white;
+    font-size: 1.5vw;
+    letter-spacing: 1.68vw;
+    margin-left: 8.7vw;
+
+}
+
+.white-box{
+    background-color: white;
+    /* height: 100vh; */
+}
+
+.white-box-text-1 h1{
+    color: yellow;
+    margin-top: 3vw;
+    font-size: 14vw;
+    margin-left: 7vw;
+}
+
+.black-line{
+    background-color:black ;
+    height: 0.1vw;
+    width: 85.5vw;
+    margin-left: 7.7vw;
+}
+
+.flex-div{
+    display: flex;
+    margin-top: 4vw;
+}
+
+.our{
+    font-size: 4vw;
+    margin-left: 8vw;
+}
+
+.services{
+    color:rgb(0, 179, 255);
+    font-size: 4vw;
+    margin-left: 1vw;
+}
+
+.our-services-content{
+    width: 39vw;
+    margin-left: 8vw;
+    font-size: 2vw;
+}
+
+.plans{
+    color:rgb(0, 179, 255);
+    font-size: 4vw;
+    margin-left: 1vw;
+}
+
+
+.yellow-line-1{
+    background-color: yellow;
+    height: 10vw;
+    width: 17vw;
+    margin-top: 12.5vw;
+}
+
+.footer-part{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-section-1{
+    height: 5vw;
+    width: 35vw;
+    margin-top: 6vw;
+    margin-left: 2vw;
+    
+}   
+
+.second-section{
+    height: 10vw;
+    width: 25vw;
+    margin-top: 6vw;
+    margin-left: 2vw;
+    
+
+}
+
+.third-section{
+    height: 10vw;
+    width: 25vw;
+    margin-top: 6vw;
+    margin-left: 2vw;
+    
+}
+
+
+.yellow-line-2{
+    background-color: yellow;
+    height: 10vw;
+    width: 17vw;
+    margin-top: 12.5vw;
+    margin-left: 13vw;
+}
+
+.img-con{
+    display: flex;
+    margin-left: 3vw;
+    margin-top: 3vw;
+}
+
+.img-con img{
+    height: 4vw;
+}
+
+.img-con h1{
+    font-size: 1.9vw;
+    margin-left: 1vw;
+    margin-top: 1.1vw;
+}
+
+.img-con-2{
+    display: flex;
+    margin-top: 3vw;
+    margin-left: 2.7vw;
+}
+
+.img-con-2 img{
+    height: 2.5vw;
+}
+
+.img-con-2 h1{
+    font-size: 1.9vw;
+    margin-left: 2vw;
+    
+}
+
+.img-con-3 {
+    display: flex;
+    margin-left: 7vw;
+    margin-top: 4vw;
+}
+
+
+.img-con-3 img{
+    height: 3.5vw;;
+    margin-right:0.2vw;
+}
+
+.img-con-3 h1{
+    font-size: 1.9vw;
+    margin-left: 0.5vw;
+}
+
+.img-con-4 {
+    display: flex;
+    margin-top: 3vw;
+    margin-left: 7vw;
+}
+
+
+.img-con-4 img{
+    height: 3vw;
+}
+
+.img-con-4 h1{
+    font-size: 1.9vw;
+    margin-left: 2vw;
+}
+
+
+.img-con-5{
+    display: flex;
+    margin-left: 4vw;
+}
+ 
+.logo-image{
+    height: 4vw;
+    margin-top: 6vw;
+    margin-left: 3vw;
+}
+
+
+.globe-image{
+    height: 5vw;
+    margin-left: 5vw;
+    margin-top: 5.7vw;
+}
+
+
+
+}
+
+@media (max-width:380px) {
+    .main-div{
+        background-image: url(background_image\ \(3\).png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        object-fit: contain;   
+        height: 100vw;
+    }
+    
+    .background-color{
+        background-color: rgba(0, 128, 255, 0.358);
+        height: 100vw;
+        background-size: 100% 100%;
+    }
+    
+    .yellow-part{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .yellow-part-1{
+    
+        background-color: yellow;
+        height: 1vw;
+        width: 5vw; 
+        margin-top: 3vw;
+        margin-left: 12vw;
+    }
+    
+    .yellow-part-1 h1{
+        margin-top: 0.5vw;
+        color: white;
+        font-size: 8vw;
+        margin-right: 5vw;
+    
+    }
+    
+    .yellow-part-2{
+        display: flex;
+    }
+    
+    .yellow-box{
+        background-color: yellow;
+        display: flex;
+        margin-right: 13vw;
+        width: 20vw;
+        height: 23vw;
+        justify-content: center;
+    }
+    
+    .text-1 h1{
+          margin-top: 1vw;
+          margin-right: 6vw;
+          color: white;
+          font-size: 5vw;
+    }
+    
+    .text-2 h1{ 
+        margin-left: 6.2vw;
+        color: white;
+        font-size: 5vw;
+        letter-spacing: 0.15vw;
+    }
+    .text-3 h1{
+        margin-left: 17vw;
+        color: white;
+        font-size: 5vw;
+    }
+    
+    .image-div{
+        background-image: url(shape_5.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        object-fit: contain;   
+        height: 13vw;
+        width: 13vw;
+        margin-left: 43vw;
+        margin-top: 33vw;
+    }
+    
+    .h-c-1{
+        color: white;
+        font-size: 4vw;
+        letter-spacing: 4vw;
+        margin-left: 8.5vw;
+        margin-top: 3vw;
+    
+    }
+    
+    .h-c-2{
+        color: white;
+        font-size: 1.5vw;
+        letter-spacing: 1.68vw;
+        margin-left: 8.7vw;
+    
+    }
+
+    .our{
+        font-size: 5vw;
+        margin-left: 8vw;
+    }
+    
+    .services{
+        color:rgb(0, 179, 255);
+        font-size: 5vw;
+        margin-left: 1vw;
+    }
+    
+    .our-services-content{
+        width: 40vw;
+        margin-left: 8vw;
+        font-size: 2.5vw;
+    }
+    
+    .plans{
+        color:rgb(0, 179, 255);
+        font-size: 5vw;
+        margin-left: 1vw;
+    }
+    
+}
+
+
+
+
+
+
